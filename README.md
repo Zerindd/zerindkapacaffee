@@ -11,3 +11,6 @@ Zoo cafe csak jobb
 - ccc
 
   [forras](http://umszki.hu)
+
+## Látványterv 
+![kep szovege](tervezet.png)
