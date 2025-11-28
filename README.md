@@ -2,11 +2,7 @@
 
 Zoo caffee csak jobb
 
-## Címsor 2
-
-Céges igények:
-
-### Címsor 3
+## Céges igények:
 
 - Étlap
 - Itallap
