@@ -1,6 +1,6 @@
 # Ötlet
 
-Zoo caffee csak jobb
+Zoo Caffee csak jobb
 
 ## Céges igények:
 
