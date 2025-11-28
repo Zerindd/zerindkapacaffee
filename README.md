@@ -1,16 +1,18 @@
 # Ötlet
 
-Zoo cafe csak jobb
+Zoo caffee csak jobb
 
 ## Címsor 2
 
+Céges igények:
+
 ### Címsor 3
 
-- aaa
-- bbb
-- ccc
-
-  [forras](http://umszki.hu)
+- Étlap
+- Itallap
+- Állatok bemutatása külön oldalon
+- Kontaktinformáció a weboldal alján
+- **Esetleg** online rendelés lehetősége 
 
 ## Látványterv 
 ![kep szovege](tervezet.png)
