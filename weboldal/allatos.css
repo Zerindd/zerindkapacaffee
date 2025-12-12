@@ -30,3 +30,15 @@ h1{
     font-size: 3rem;
     cursor: pointer;
 }
+.footer{
+    background-color: #332d27;
+}
+.footer h2{
+    text-align: center;
+}
+#kepeskep{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
