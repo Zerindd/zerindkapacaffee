@@ -1,0 +1,54 @@
+body{
+    background-color: #dfd3c3;
+}
+.navbar {  
+    top: 0;
+    left: 0;
+    height: 1000vh;
+    width: 15%;
+    float:left;
+    text-align: left;
+    background-color: #332d27;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+.navbar li{ 
+    padding-top: 5vh;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+
+}
+#dagadt{
+    border: 1vh solid #c7b198;
+    margin-top: 13.5vw;
+}
+#kepek{
+    height: 4.7vh;
+    margin-top: 1vw;
+    margin-right: 0.4vw;
+}
+.socialmediak{
+    padding-left: 30px;
+}
+#vekony{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border: 0.2vh solid #c7b198;
+}
+#mid{
+    text-align: center;
+}
+#wrap{
+    width: 85%;
+    float: right;
+}
+#wrap h1, h2 {
+    text-align: center;
+    color: #332d27;
+}
