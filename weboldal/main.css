@@ -1,13 +1,9 @@
-body{
-    background-color: #dfd3c3;
-}
 main{
     margin-left: 20%;
     margin-right: 20%;
 }
 
 h1{
-    text-align: center;
     font-style: italic;
     text-shadow: 3px 4px 3px #c7b198;
     color: #332d27;
