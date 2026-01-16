@@ -218,7 +218,15 @@
 
         <script>
             function muti(){
-                
+                var katt = false
+                if (katt == false){
+                    document.getElementById("hide").style.display = "block"
+                    katt = true
+                }
+                if (katt == true){
+                    document.getElementById("hide").style.display = "hidden"
+                    katt = false
+                }
             }
         </script>
 </body>
