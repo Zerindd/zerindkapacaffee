@@ -62,26 +62,27 @@
     float: right;
 }
 
-table{
+#etital{
     margin: 0px auto;
     width: 70%;
     border-collapse: collapse;
 }
-tr:hover{
+#etital tr:hover{
     background-color: #c7b198;
 }
-td{
+#etital td{
     border-top: 3px solid #332d27;
 }
-th{
+#etital th{
     border-top: 3px solid #332d27;
     text-align: center;
 }
-th, td{
+#etital th, td{
     font-size: large;
     padding: 8px;
 }
 #gmb{
+    align-self: baseline;
     transition: 0.3s;
     margin: auto;
     display: block;
@@ -112,4 +113,14 @@ th, td{
 }
 #hide, #hide2{
     text-align: center;
+}
+#allatost{
+    width: 100%;
+    text-align: center;
+}
+#allastost td{
+    width: 50%;
+}
+#allatost button{
+    
 }
