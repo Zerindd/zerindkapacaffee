@@ -202,14 +202,39 @@
             <button id="gmb" onclick="muti()">
                 <p>Emlősök</p>
             </button>
-            <div id="hide">
+            <div id="hide" style="display: none;">
                 <h1>Cicák</h1>
                 <img src="kepek/Allatok/cica.jpg" alt="Cicaa" title="Kis cicaaa" id="allatkep">
                 <p>Van 5 darab kiscica akik össze vissza mászkálnak hell yeah</p>
+                <h1>Nyuszik</h1>
+                <img src="kepek/Allatok/nyuszi.jpg" alt="Nyuszik" title="Nyuszik!!!!" id="allatkep">
+                <p>Van 3 darab nyúl amit kérésre lerakunk az asztalodra, hogy játszadozz velük kérésre</p>
+                <h1>Binturong.</h1>
+                <img src="kepek/Allatok/binturong.jpg" alt="Binturong." title="Binturong." id="allatkep">
+                <p>Van 1 darab, találd meg.</p>
+                <h1>Préri kutyák</h1>
+                <img src="kepek/Allatok/prerikutya.jpg" alt="Préri kutyák!!!" title="Préri kutyák!!!" id="allatkep">
+                <p>Van 5 darab préri kutya, külön préri kutya simogató helyen.</p>
             </div>
-            <button id="gmb">
+            <br>
+            <button id="gmb" onclick="muti2()">
                 <p>Hüllők</p>
             </button>
+            <div class="hide2" style="display: none;">
+                <h1>Gekkó</h1>
+                <img src="kepek/Allatok/gekko.jpg" alt="Gekkó" title="Gekkó" id="allatkep">
+                <p>Van 3 darab gekkó</p>
+                <h1>Nyuszik</h1>
+                <img src="kepek/Allatok/komodo.jpg" alt="Komodói varánusz" title="Komodói varánusz" id="allatkep">
+                <p>Van 1 darab, nagyon barátságos!!!</p>
+                <h1>Teknősök</h1>
+                <img src="kepek/Allatok/teknos.jpg" alt="Teknősök!!" title="Teknősök!!" id="allatkep">
+                <p>Van sok féle teknős fajta, nagyon barátságosak!!!</p>
+                <h1>Szalagos tigrispiton</h1>
+                <img src="kepek/Allatok/tigrispiton.jpg" alt="Szalagos tigrispiton!!" title="Szalagos tigrispiton!!"
+                    id="allatkep">
+                <p>Van 1 darab, nagyon barátságos!!!</p>
+            </div>
         </div>
         <br>
         <h1 id="Kontakt">Kontakt</h1>
@@ -217,15 +242,22 @@
         <h1 id="OnlineRendeles">Online Rendelés</h1>
 
         <script>
-            function muti(){
-                var katt = false
-                if (katt == false){
-                    document.getElementById("hide").style.display = "block"
-                    katt = true
+            function muti() {
+                var hid = document.getElementById("hide")
+                if (hid.style.display == "none") {
+                    hid.style.display = "block"
                 }
-                if (katt == true){
-                    document.getElementById("hide").style.display = "hidden"
-                    katt = false
+                else {
+                    hid.style.display = "none"
+                }
+            }
+            function muti2() {
+                var hid1 = document.getElementById("hide2")
+                if (hid1.style.display == "none") {
+                    hid1.style.display = "block"
+                }
+                else {
+                    hid1.style.display = "none"
                 }
             }
         </script>
