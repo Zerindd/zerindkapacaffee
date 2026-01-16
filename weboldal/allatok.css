@@ -81,3 +81,24 @@ th, td{
     font-size: large;
     padding: 8px;
 }
+#gmb{
+    transition: 0.3s;
+    margin: auto;
+    display: block;
+    border: 2px solid #c7b198 ;
+    border-radius: 4px;
+    background-color: #332d27;
+    width: 175px;
+    height: 90px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+#gmb:hover{
+    transition: 0.3s;
+    background-color: #c7b198;
+    width: 200px;
+    height: 100px;
+    font-size: larger;
+    font-weight: bolder;
+}
