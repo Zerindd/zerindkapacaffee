@@ -1,4 +1,4 @@
-.navbar {  
+.navba {  
     top: 0;
     left: 0;
     height: 1000vh;
@@ -11,10 +11,10 @@
     padding: 0;
     margin-right: 10px;
 }
-.navbar li{ 
+.navba li{ 
     padding-top: 5vh;
 }
-.navbar a{
+.navba a{
     color: white;
     text-decoration: none;
     font-size: larger;

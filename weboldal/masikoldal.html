@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="allatok.css">
     <title>Menagerie Caffee Főoldal</title>
 </head>
 
 <body>
-    <div class="navbar">
+    <div class="navba">
         <br>
         <br>
         <div id="mid">
@@ -197,49 +199,56 @@
 
 
         <br>
+        
         <h1 id="Allatok">Állatok</h1>
 
-        <div style="display: flex; justify-content: center;">
-            <button id="gmb" onclick="muti()">
-                Emlősök
-            </button>
-            
-            <button id="gmb" onclick="muti2()">
-                Hüllők
-            </button>
+        <div style="display: flex; justify-content: center; ">
+
         </div>
 
-        <div style="display: flex; justify-content: center;">
+        <div style="display: flex; justify-content: space-around;">
 
-            <div id="hide" style="display: none;">
-                <h1>Cicák</h1>
-                <img src="kepek/Allatok/cica.jpg" alt="Cicaa" title="Kis cicaaa" id="allatkep">
-                <p>Van 5 darab kiscica akik össze vissza mászkálnak hell yeah</p>
-                <h1>Nyuszik</h1>
-                <img src="kepek/Allatok/nyuszi.jpg" alt="Nyuszik" title="Nyuszik!!!!" id="allatkep">
-                <p>Van 3 darab nyúl amit kérésre lerakunk az asztalodra, hogy játszadozz velük kérésre</p>
-                <h1>Binturong.</h1>
-                <img src="kepek/Allatok/binturong.jpg" alt="Binturong." title="Binturong." id="allatkep">
-                <p>Van 1 darab, találd meg.</p>
-                <h1>Préri kutyák</h1>
-                <img src="kepek/Allatok/prerikutya.jpg" alt="Préri kutyák!!!" title="Préri kutyák!!!" id="allatkep">
-                <p>Van 5 darab préri kutya, külön préri kutya simogató helyen.</p>
-            </div>
+            <article>
+                <button id="gmb" onclick="muti()">
+                    Emlősök
+                </button>
+                <div id="hide" style="display: none;">
+                    <h1>Cicák</h1>
+                    <img src="kepek/Allatok/cica.jpg" alt="Cicaa" title="Kis cicaaa" id="allatkep">
+                    <p>Van 5 darab kiscica akik össze vissza mászkálnak hell yeah</p>
+                    <h1>Nyuszik</h1>
+                    <img src="kepek/Allatok/nyuszi.jpg" alt="Nyuszik" title="Nyuszik!!!!" id="allatkep">
+                    <p>Van 3 darab nyúl amit kérésre lerakunk az asztalodra, hogy játszadozz velük kérésre</p>
+                    <h1>Binturong.</h1>
+                    <img src="kepek/Allatok/binturong.jpg" alt="Binturong." title="Binturong." id="allatkep">
+                    <p>Van 1 darab, találd meg.</p>
+                    <h1>Préri kutyák</h1>
+                    <img src="kepek/Allatok/prerikutya.jpg" alt="Préri kutyák!!!" title="Préri kutyák!!!" id="allatkep">
+                    <p>Van 5 darab préri kutya, külön préri kutya simogató helyen.</p>
+                </div>
+            </article>
 
-            <div id="hide2" style="display: none;">
-                <h1>Gekkó</h1>
-                <img src="kepek/Allatok/gekko.jpg" alt="Gekkó" title="Gekkó" id="allatkep">
-                <p>Van 3 darab gekkó</p>
-                <h1>Komodói varánusz</h1>
-                <img src="kepek/Allatok/komodo.jpg" alt="Komodói varánusz" title="Komodói varánusz" id="allatkep">
-                <p>Van 1 darab, nagyon barátságos!!!</p>
-                <h1>Teknősök</h1>
-                <img src="kepek/Allatok/teknos.jpg" alt="Teknősök!!" title="Teknősök!!" id="allatkep">
-                <p>Van sok féle teknős fajta, nagyon barátságosak!!!</p>
-                <h1>Szalagos tigrispiton</h1>
-                <img src="kepek/Allatok/tigrispiton.jpg" alt="Szalagos tigrispiton!!" title="Szalagos tigrispiton!!" id="allatkep">
-                <p>Van 1 darab, nagyon barátságos!!!</p>
-            </div>
+            <article>
+                <button id="gmb" onclick="muti2()">
+                    Hüllők
+                </button>
+                <div id="hide2" style="display: none;">
+                    <h1>Gekkó</h1>
+                    <img src="kepek/Allatok/gekko.jpg" alt="Gekkó" title="Gekkó" id="allatkep">
+                    <p>Van 3 darab gekkó</p>
+                    <h1>Komodói varánusz</h1>
+                    <img src="kepek/Allatok/komodo.jpg" alt="Komodói varánusz" title="Komodói varánusz" id="allatkep">
+                    <p>Van 1 darab, nagyon barátságos!!!</p>
+                    <h1>Teknősök</h1>
+                    <img src="kepek/Allatok/teknos.jpg" alt="Teknősök!!" title="Teknősök!!" id="allatkep">
+                    <p>Van sok féle teknős fajta, nagyon barátságosak!!!</p>
+                    <h1>Szalagos tigrispiton</h1>
+                    <img src="kepek/Allatok/tigrispiton.jpg" alt="Szalagos tigrispiton!!" title="Szalagos tigrispiton!!"
+                        id="allatkep">
+                    <p>Van 1 darab, nagyon barátságos!!!</p>
+                </div>
+            </article>
+
 
         </div>
 
